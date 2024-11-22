@@ -3,7 +3,7 @@ from typing import List, Optional, TYPE_CHECKING
 from sqlmodel import SQLModel, Field, Column, JSON, Relationship
 if TYPE_CHECKING:
     from models.users import User
-
+#qweqwewqeqwe
 class Event(SQLModel, table=True):
     id: int = Field(default=None, primary_key=True)
     title: str
